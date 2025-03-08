@@ -1,0 +1,45 @@
+This is Android 15 QPR with March 2025 security patches
+
+Notes:
+==============================
+- DerpFest AOSP-based source. Signed build.
+- Make sure to be on HyperOS A14 firmware first.
+- Use latest OrangeFox-25.02.06_A15-Unofficial-mondrian.zip as recovery.
+- Clean flash is required if coming from another rom.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Includes KernelSU-Next with SUSFS4KSU.
+- Play Integrity passes with PIF Fork (https://github.com/osm0sis/PlayIntegrityFork/releases/tag/v12).
+- Includes Dolby Atmos, POCO camera.
+- Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy.
+- Report issues with logs.
+                                       
+Device changes: Date - 09/03/2025
+==============================
+Update HyperOS Gallery and Gallery Editor 
+Included per app refresh rate
+Included High Brightness Mode (HBM)
+Included custom display saturation slider
+Implement torch light control
+Import QCOM audio effects from OnePlus 9R
+Do not use phase offsets as duration
+Added battery props for better batterybackup
+Fix Dolby audio codecs
+Set VENDOR_SECURITY_PATCH To PLATFORM
+Unmount /firmware after fastbootd starts
+Dont ship source recovery with Rom
+audio: Add LHDC support (If you don't have an LHDC device, just check supported codec on Bluetooth Codec Changer app)
+audio: use QCOM Implementation for Audio Effects
+parts: Add {navigation,video} thermal profiles
+parts: Add support for 60Hz in Landscape in Per-App-RR
+parts: Automatically determine thermal profile for apps
+parts: Fix setting default thermal profile
+props: Add missing layer buffer slots cache clear property
+props: Disable game_default_frame_rate override
+props: Set SF caching property to 0 (enable)
+rootdir: Drop platform specific setup from init.qcom.early_boot.sh
+rootdir: Drop platform specific setup from init.qcom.post_boot.sh
+rootdir: Drop platform specific setup from init.qcom.sh
+rootdir: Drop useless init.qcom.class_core.sh
+kernel: Update KernelSU-Next and SUSFS4KSU to the latest version
+kernel: Add hide scripts from Wild Plus Kernel thanks to @TheWildJames
+and more .......... 
