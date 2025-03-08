@@ -13,7 +13,7 @@ Notes:
 - Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy.
 - Report issues with logs.
                                        
-Device changes: Date - 09/03/2025
+Device changes: Date - 08/03/2025
 ==============================
 Update HyperOS Gallery and Gallery Editor 
 Included per app refresh rate
