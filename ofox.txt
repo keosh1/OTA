@@ -1,0 +1,17 @@
+== 18/3/2025 ==
+
+- Credits to ymdzq, Nebrassy, Egor Pilipenko
+
+- Match the latest ofox source update (R11.2)
+- Now GSI can be flashed directly from recovery
+- Save OFRP settings and themes to /persist/OFRP
+- Add unified-script to Set Redmi K60 for CN and POCO F5 Pro for Global
+- Update the default Magisk addon to v28.1
+- Dispense with legacy/redundant code
+- Support for AOSP Android 14/Android 15 ROMs
+- Support APatch and KernelSU root modules
+- Update handling of USB-OTG
+- Update several UI elements
+- Support using a USB mouse to navigate the UI
+- Full support for VAB devices
+- Lots of fixes and enhancements
