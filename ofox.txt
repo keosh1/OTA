@@ -3,6 +3,7 @@
 - Credits to ymdzq, Nebrassy, Egor Pilipenko
 
 - Match the latest ofox source update (R11.2)
+- Support both HyperOS and AOSP
 - Now GSI can be flashed directly from recovery
 - Save OFRP settings and themes to /persist/OFRP
 - Add unified-script to Set Redmi K60 for CN and POCO F5 Pro for Global
