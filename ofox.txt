@@ -1,7 +1,10 @@
-== 18/3/2025 ==
-
 - Credits to ymdzq, Nebrassy, Egor Pilipenko
 
+== 22/3/2025 ==
+- Update Chinese translation
+- Revert "GSI can be flashed directly from recovery"
+
+== 18/3/2025 ==
 - Match the latest ofox source update (R11.2)
 - Support both HyperOS and AOSP
 - Now GSI can be flashed directly from recovery
