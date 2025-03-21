@@ -1,6 +1,6 @@
 - Credits to ymdzq, Nebrassy, Egor Pilipenko
 
-== 22/3/2025 ==
+== 21/3/2025 ==
 - Update Chinese translation
 - Revert "GSI can be flashed directly from recovery"
 
