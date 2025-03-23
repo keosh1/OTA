@@ -4,7 +4,7 @@ Notes:
 ==============================
 - DerpFest AOSP-based source. Signed build.
 - Make sure to be on HyperOS A14 firmware first.
-- Use latest OrangeFox-25.02.06_A15-Unofficial-mondrian.zip as recovery.
+- Use latest OrangeFox-25.03.21_A15-Unofficial-mondrian.zip as recovery.
 - Clean flash is required if coming from another rom.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Includes KernelSU-Next with SUSFS4KSU.
