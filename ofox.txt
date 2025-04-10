@@ -1,5 +1,13 @@
 - Credits to ymdzq, Nebrassy, Egor Pilipenko
 
+== 10/4/2025 ==
+- Initial release of R11.3
+- Introduce HW GUI controls (https://wiki.orangefox.tech/en/guides/base#hardware-gui-control-in-orangefox-recovery-hw-gui)
+* Manual Activation/Deactivation: The user can manually enable or disable the mode by simultaneously holding the volume buttons "+" and "-" for 3 seconds *
+- Update Chinese translation
+- Support clearing frp partition (Factory Reset Protection) 
+- Lots of fixes and enhancements
+
 == 21/3/2025 ==
 - Update Chinese translation
 - Revert "GSI can be flashed directly from recovery"
