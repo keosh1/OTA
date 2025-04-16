@@ -1,5 +1,9 @@
 - Credits to ymdzq, Nebrassy, Egor Pilipenko
 
+== 16/4/2025 ==
+- Use prebuilt F2FS tools from OS2.0.3.0.VMNMIXM to fix long (~20 sec) /data check on decryption process
+- Lots of fixes and enhancements
+
 == 10/4/2025 ==
 - Initial release of R11.3
 - Introduce HW GUI controls (https://wiki.orangefox.tech/en/guides/base#hardware-gui-control-in-orangefox-recovery-hw-gui)
