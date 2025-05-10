@@ -1,0 +1,29 @@
+This is Android 15 QPR2 with May 2025 security patches match the latest source changes
+
+Notes:
+==============================
+- Project Infinity X based source. Signed build.
+- Use latest OrangeFox Unofficial recovery.
+- Clean flash is required if coming from another rom.
+- Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
+- Includes Dolby Atmos, POCO camera.
+- Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy.
+- Report issues with logs.
+
+Device changes: Date - 10/05/2025
+==============================
+- parts: Implement startup service to restore Saturation Setting
+- Do not balance msm_drm and kgsl_3d0 IRQs
+- Dynamically set IRQ affinity for KGSL and MSM_DRM
+- parts: Introduce GameBar v4.0
+- parts: Introduce thermal profile tile service
+- parts: Add support for long-press actions on QS tiles
+- parts: ThermalTileService: Introduce Gaming Mode with per-game optimizations
+- parts: Introduce PowerTools v3.0
+- Enable support for IEEE80211AC
+- Apply dex2oat optimizations
+- props: Disable debug.sf.latch_unsignaled
+- Disable ART debug
+- Switch to NCM USB tethering
+- Migrate Lineage Health to soong_config_set
+and more .......... 
