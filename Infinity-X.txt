@@ -10,6 +10,15 @@ Notes:
 - Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy.
 - Report issues with logs.
 
+Device changes: Date - 15/05/2025
+==============================
+- Rom now is rootless and Switch From Ksu-next to Sukisu-Ultra use this root manager instead https://github.com/ShirkNeko/SukiSU-Ultra/releases
+- Fix all Audio issues
+- Set camera override format from reserved via soong config
+- sensors: Migrate sensor-notifier extension config to soong select
+- Move soong_config_sets from BoardConfig to common.mk
+and more .......... 
+
 Device changes: Date - 10/05/2025
 ==============================
 - parts: Implement startup service to restore Saturation Setting
