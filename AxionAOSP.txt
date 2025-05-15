@@ -13,6 +13,8 @@ Notes:
 Device changes: Date - 15/05/2025
 ==============================
 - Rom now is rootless and Switch From Ksu-next to Sukisu-Ultra use this root manager instead https://github.com/ShirkNeko/SukiSU-Ultra/releases
+- Update cpu fg and bg
+- Define cpu cores properly
 - parts: Introduce PowerTools v3.0
 - Refactor: Migrate SaturationUtils to Kotlin
 - parts: Startup: Restore Auto HBM settings on boot
