@@ -1,5 +1,15 @@
 - Credits to ymdzq, Nebrassy, Egor Pilipenko
 
+== 19/5/2025 ==
+- Cancel the delay in processing fstab settings during data decryption at startup
+- Cancel the data partition self-check to speed up startup
+- update the built-in magisk alpha installation package of Orange Fox
+- Set the maximum number of options that can be displayed on one page to 11
+- Add fast charging service
+- Skip new fstab processing
+- Restore ofox default settings after every zip flash (update)
+- Match ofox source changes and Lots of fixes and enhancements
+
 == 16/4/2025 ==
 - Use prebuilt F2FS tools from OS2.0.3.0.VMNMIXM to fix long (~20 sec) /data check on decryption process
 - Lots of fixes and enhancements
