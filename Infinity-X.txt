@@ -10,6 +10,19 @@ Notes:
 - Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy.
 - Report issues with logs.
 
+Device changes: Date - 19/05/2025
+==============================
+- Introduce New UdfpsHandler should fix brighten udfps issue 
+*Remove registered udfp before dirty flash and also should work but clean flash if you still face it clean always recommended*
+- parts: Don't set battery saver power profile in low battery mode
+- audio: Enable volume set param for compressed, pcm offload and voip streams
+- audio: Increase initial stereo master volume
+- Add missing AB flag to vm-bootsys.img
+- Remove patchelf version override
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvement
+
 Device changes: Date - 15/05/2025
 ==============================
 - Rom now is rootless and Switch From Ksu-next to Sukisu-Ultra use this root manager instead https://github.com/ShirkNeko/SukiSU-Ultra/releases
