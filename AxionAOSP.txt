@@ -10,6 +10,37 @@ Notes:
 - Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy.
 - Report issues with logs.
 
+Device changes: Date - 22/05/2025
+==============================
+- Optimize cpu consumption speacially prime ones
+- Nuke Xiaomi Dolby
+- Add support for Sony Dolby
+- Add support for Full Dolby Vision thanks to @MIUI_users_r_GAY ♥♥
+- Enable Dolby Vision support in hwcomposer
+- BT: Import LDAC and LHDC blobs from diting V816.0.12.0.ULFMIXM
+- Move WfdCommon boot jar declaration to vendor
+- rootdir: Enable suspend to RAM
+- rootdir: Do not allow foreground tasks to run on CPU7
+- rootdir: Move background cpuset to CPU0-1
+- rootdir: Set restricted cpuset to the same CPUs as system-background
+- init: Make less cores available for background tasks
+- init: Give proper permissions for /dev/diag
+- init: Configure max values for background and dex2oat groups
+- zram: Add writeback properties
+- Enable Client Composition Cache
+- overlay: Set default dialer package name
+- overlay: configure SQLite to operate in MEMORY mode
+- textclassifier: Add and ship prebuilt TextClassifier
+- Disable Skia tracing by default
+- props: disable phantom process monitoring
+- properties: Enable support for kernel idle timer
+- Enable HWUI adpf
+- Compile HWUI for performance
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvements
+
+
 Device changes: Date - 15/05/2025
 ==============================
 - Rom now is rootless and Switch From Ksu-next to Sukisu-Ultra use this root manager instead https://github.com/ShirkNeko/SukiSU-Ultra/releases
