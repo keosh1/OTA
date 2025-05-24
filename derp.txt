@@ -1,17 +1,19 @@
-This is Android 15 QPR1 with March 2025 security patches
+This is Android 15 QPR2 with May 2025 security patches
 
 Notes:
 ==============================
 - DerpFest AOSP-based source. Signed build.
-- Make sure to be on HyperOS A14 firmware first.
-- Use latest OrangeFox-25.03.21_A15-Unofficial-mondrian.zip as recovery.
+- Use latest OrangeFox-Unofficial-mondrian.zip as recovery.
 - Clean flash is required if coming from another rom.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Includes KernelSU-Next with SUSFS4KSU.
 - Play Integrity passes with PIF Fork (https://github.com/osm0sis/PlayIntegrityFork/releases/tag/v12).
 - Includes Dolby Atmos, POCO camera.
 - Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy.
 - Report issues with logs.
+
+Device changes: Date - 24/05/2025
+==============================
+initial release.
 
 Device changes: Date - 23/03/2025
 ==============================
