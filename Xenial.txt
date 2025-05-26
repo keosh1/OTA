@@ -60,7 +60,6 @@
 - soc: qcom: spec_fence: create dummy spec_fence for fence array creation
 - disable swap
 - patch_cmdline
-- selinux permissive
 - increase boot up speed
 - disable ufs qcom irq affinity support
 - bluetooth slimbus changes
