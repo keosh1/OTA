@@ -1,5 +1,5 @@
 - Credits to Jairus980, Arian16k, Adrianyyyy.
-- This Kernel only can be run on LineageOS rom based
+- This Kernel only can be run on LineageOS DT rom based
 - Take backup from your boot.img before flash
 
           26/05/2025
