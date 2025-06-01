@@ -1,4 +1,25 @@
-- Credits to ymdzq, Nebrassy, Egor Pilipenko
+- Credits to ymdzq, sekaiacg, Nebrassy, Egor Pilipenko
+
+== 31/5/2025 ==
+- Backup_Display_Name increase to 5 items
+- Daylight savings time (DST) is not used by default
+- exfat: Update exfat to 1.3.0
+- twrp-functions: Add File_Exists function
+- Set_FBE_Status: Add conditions to optimize judgment
+- Add TW_XIAOMI_TOUCH_PERMISSION_FIX
+- Add TW_XIAOMI_TOUCH_RMMOD_GOODIX_CORE
+- Enable SPR block in recovery and power off UI
+- Fixed a problem where text was not translated
+- Updated Simplified Chinese translation text
+- Update Traditional Chinese translation text
+- Select display mode based on TW_FRAMERATE
+- Update all patchs && Use cherry-pick instead of apply to apply patches
+- [selectimage] add supported suffix name
+- Add prevent automatic installation of stock Recovery
+- Add disable AVB2.0 in advanced options
+- Unmount the data partition when reboot
+- Fix Change TWRP Folder on encrypted devices
+- and alot more ..........................................
 
 == 19/5/2025 ==
 - Cancel the delay in processing fstab settings during data decryption at startup
