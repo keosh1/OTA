@@ -10,6 +10,35 @@ Notes:
 - Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy.
 - Report issues with logs.
 
+Device changes: Date - 04/06/2025
+==============================
+- Update blobs and firmware from OS2.0.7.0.VMNMIXM
+- common: Update blobs from diting OS2.0.2.0.VLFMIXM
+- Commonize adreno gmu and sqe firmware
+- Group blob fixups adding libprocessgroup_shim
+- audio: Configure stereo microphone for landscape camcorder
+- audio: Use 2 channels for speaker out in voice calls
+- audio: Use voice-headphones path for calls with headphones
+- PayloadBuilder: Fix retrieving KVs with a custom config
+- aidl: fingerprint: Set properties for IFAA
+- aidl: fingerprint: Grant SYS_NICE capability to set SCHED_FIFO
+- Sepolicy: Allow fingeprint hal to get SYS_NICE capability
+- Add dual AP/STA to wifi hal interface combinations
+- udfps: Disable lhbm when authentication is finished
+- udfps: Disable lhbm on most acquired events
+- Build common IFAAService and fix some sepolicy for Alipay & WeChat udfps payment
+- Sepolicy: Allow fingerprint hal to read system dmabuf device
+- Switch to common AIDL IR service
+- Add support for spatial audio
+- parts: Move GameBar to system settings and add Icon as well
+- Update SukiSU-Ultra.img
+- fixup! input: touchscreen: xiaomi: Commonize touch mode get/set between ioctl and sysfs nodes
+- input: touchscreen: xiaomi: Invalidate pending gesture events on resume
+- input: touchscreen: xiaomi: Silence debugging logs when setting touch modes
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvements
+
 Device changes: Date - 23/05/2025
 ==============================
 - Optimize cpu consumption speacially prime ones
