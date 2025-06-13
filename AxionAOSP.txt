@@ -10,6 +10,23 @@ Notes:
 - Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy.
 - Report issues with logs.
 
+Device changes: Date - 13/06/2025
+==============================
+- Update sukisu-ulta.img to match the latest changes
+- Add support for Dolby spatial audio
+- sepolicy: Add rules for Alipay and system app functionality
+- Remove wifilearner HIDL entry from manifest
+- WIP: wlan: Apply xiaomi changes to wcnss config
+- wlan: Remove g_prefer_5g_scc_to_dbs
+- wlan: Use default value for assoc failure timeout
+- Migrate Dolby Vision to soong_config_set
+- Switch to Touch AIDL
+- Update CPU props for boost framework
+- Boost framework: integrate cpuset optimization and update
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvements
+
 Device changes: Date - 04/06/2025
 ==============================
 - Update blobs and firmware from OS2.0.7.0.VMNMIXM
