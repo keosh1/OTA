@@ -1,4 +1,4 @@
-This is Android 15 QPR2 with May 2025 security patches match the latest source changes
+This is Android 15 QPR2 with June 2025 security patches match the latest source changes
 
 Notes:
 ==============================
@@ -6,7 +6,7 @@ Notes:
 - Use latest OrangeFox Unofficial recovery.
 - Clean flash is required if coming from another rom.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
-- Includes Dolby Atmos, POCO camera.
+- Includes Dolby Atmos, Dolby vision, POCO camera.
 - Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy.
 - Report issues with logs.
 
