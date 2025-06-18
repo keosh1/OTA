@@ -2,6 +2,29 @@
 - This Kernel only can be run on LineageOS DT rom based
 - Take backup from your boot.img before flash
 
+          18/06/2025
+==============================
+- Add support for multi selection KernelSU or No KernelSU woth volume buttons
+- update KernelSU next + susfs
+- linux 5.10.238
+- remove f2fs additional tracings
+- remove ext4 additional tracings
+- remove android fs additional tracings
+- add generic wakelock blocker driver
+- sched walt optimizations
+- disable ufs qcom irq affinity support
+- set ufs qcom auto hibernate timer to 1ms
+- reduce the clock scaling latency in ufshcd
+- disable system tracing driver
+- disable CoreSight driver
+- add driver for disabling coresight clocks
+- disable zram driver
+- skip watchdog check for large watchdog intervals
+- optimize pid maps output for arm64
+- improve the performance of kallsyms
+- makefile optimizations
+and more ..................................................
+
           26/05/2025
 ==============================
 
@@ -13,7 +36,7 @@
 - fix sched fair initial util avg calculation
 - do not double balance interval for migrate misfit
 - set asym priority equally for all cpus in a performance domain
-- kernfs changes
+- kernelfs changes
 - disable spi crc
 - reduce sched latency
 - change default sched rr timeslice
