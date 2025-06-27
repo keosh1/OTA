@@ -7,8 +7,21 @@ Notes:
 - Clean flash is required if coming from another rom.
 - Always dirty flash at your own risk. If your device bootloops, revert to an older build that boots.
 - Includes Dolby Atmos, Dolby vision, POCO camera.
-- Credits to Arian16k, ph12nex, Chaitanya, flakeforever, Adrianyyyy.
+- Credits to Arian16k, ph12nex, MIUI_users_r_GAY, Chaitanya, flakeforever, Adrianyyyy.
 - Report issues with logs.
+
+Device changes: Date - 27/06/2025
+==============================
+- sm8450-common: overlay: Drop ambient brightening/darkening thresholds
+- sm8450-common: overlay: Screen Brightening/Darkening thresholds update
+- sm8450-common: overlay: Convert screen brightening thresholds to ints
+- sm8450-common: overlay: Fine tune screen brightening thresholds
+- sm8450-common: overlay: Config overlay to support 2 physical slots
+- mondrian: Update blobs and firmware from OS2.0.8.0.VMNMIXM
+- prop: Update blur props
+- Synced with latest sources
+- Updated translations
+- Some other fixes and improvements
 
 Device changes: Date - 11/06/2025
 ==============================
