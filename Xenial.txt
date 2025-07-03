@@ -2,6 +2,18 @@
 - This Kernel only can be run on LineageOS DT rom based
 - Take backup from your boot.img before flash
 
+          03/07/2025
+==============================
+- remove susfs4ksu for now
+- enable f2fs atgc and gc merge by default
+- merge update android12-5.10-lts
+- resolve sched feat to improve code optimizations
+- always update cpu capacity when load balancing
+- skip superfluous acquire barrier in ttwu
+- dont push task if there are none
+- disable ttwu queue by default
+and more ..................................................
+
           18/06/2025
 ==============================
 - Add support for multi selection KernelSU or No KernelSU woth volume buttons
