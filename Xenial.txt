@@ -2,6 +2,18 @@
 - This Kernel only can be run on LineageOS DT rom based
 - Take backup from your boot.img before flash
 
+          12/07/2025
+==============================
+- disable io uring
+- disable sched debug
+- disable sync fence names
+- disable stack protector
+- disable cfi clang
+- disable kernel audit
+- disable kernel integrity
+- disable kernel profiling
+- disable relocation packing
+
           03/07/2025
 ==============================
 - remove susfs4ksu for now
@@ -44,68 +56,12 @@ and more ..................................................
 - input: touchscreen: xiaomi: Invalidate pending gesture events on resume
 - input: touchscreen: xiaomi: Silence debugging logs when setting touch modes
               (now should all UDFPS issues be fixed)
-- SElinux status now is Enforcing
-- fix sched fair initial util avg calculation
-- do not double balance interval for migrate misfit
-- set asym priority equally for all cpus in a performance domain
-- kernelfs changes
-- disable spi crc
-- reduce sched latency
-- change default sched rr timeslice
-- reduce freeze timeout for android
-- increase vmstat interval
-- switch sched fair scaling to linear
-- don't hog the cpu in rmqueue bulk
-- resolve sched feat to improve code optimizations
-- always update cpu capacity when load balancing
-- skip superfluous acquire barrier in ttwu
-- dont push task if there are none
-- dont carve out android kabi reservations in various structs
-- add dummy helper in bpf when tracing is disable
-- remove gpu drm debug prints
-- treat qcom cpuidle negative sleep lengths as indefinite
-- disable hw breakpoint to remove schedule overhead
-- add fix d lookup done in dcache
-- do not pass around sde offset string
-- remove sde register write debug logging
-- remove sde register write debug logging
-- optimize reclaim parameters
-- ext4 block optimizations
-- fix memory leak in camera res mgr
-- exclude camera debug util api
-- compile out code entirely when numa is disabled
-- remove remaining no log usage
-- disable display debug logging
-- revert per process gpu memory usage trace
-- inline the spin lock function family
-- remove unneeded pm qos requests
-- skip heavy autorefresh checks when it is not enabled
-- avoid excessive wake attempts in system wakeup
-- skip watchdog check for large watchdog intervals
-- add driver for disabling coresight clocks
-- disable coresight driver
-- disable system tracing driver
-- disable proactive compaction by default
-- speed up cache entry creation
-- disable avc log by default
-- silence qcom wdt core
-- only compile adreno 7xx driver
-- lazy module update
-- arm64: Align clear_page() to 16 bytes
-- soc: qcom: spec_fence: create dummy spec_fence for fence array creation
-- disable swap
-- patch_cmdline
-- increase boot up speed
-- disable ufs qcom irq affinity support
-- bluetooth slimbus changes
-- exclude kmemleak require global debug options or debugfs
-- do not die when memory allocation fails in kmemleak
-- remove ext4 additional tracings
-- optimize cpu pm cpu idle enter macro
-- fix all clang 19 warnings
-- add sync point between each level
-- move kgsl to async probe
-- jump if execution fails
-- set namespace default to noatime
-- disable watermark boosting
-and more ..................................................
+- change ssg max available ratio
+- add ssg scheduler
+- disable configs irrelevant to this platform
+- disable various debugging features
+- kernel compile fixes and changes
+- add support inbuilt drivers
+- add latest xiaomi drivers
+- add wlan and techpack
+- inital release KERNEL.PLATFORM.1.0.r3-06200-kernel.0 + android12-5.10lts
