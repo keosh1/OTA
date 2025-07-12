@@ -4,6 +4,7 @@
 
           12/07/2025
 ==============================
+- bring back susfs4ksu v1.5.9
 - disable io uring
 - disable sched debug
 - disable sync fence names
