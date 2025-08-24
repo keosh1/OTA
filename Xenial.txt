@@ -2,6 +2,25 @@
 - This Kernel only can be run on LineageOS DT rom based
 - Take backup from your boot.img before flash
 
+          24/08/2025
+==============================
+- update susfs4ksu and KsuN to the latest version to match all KsuN and susfs4ksu fixes.
+- platform: merge KERNEL.PLATFORM.1.0.r3-06500 update.
+- kernel: update to Linux 5.10.240.
+- android: merge android12-5.10-lts upstream updates.
+- bpf: revert precision backtracking instruction iteration fix.
+- drm: remove GPU debug print statements.
+- bpf: add dummy helper when tracing is disabled.
+- android: remove KABI reservations from struct definitions.
+- gpu: compile only Adreno 7xx driver.
+- mm: disable watermark boosting for memory management.
+- kernel: implements extensive kernel optimizations including string handling improvements, bitmap operations, CPU mask optimizations, and various performance enhancements.
+- block: optimizes sbitmap operations used in block I/O scheduling, improving performance for disk operations and reducing CPU overhead in the block layer.
+- fs: improve kernfs directory and file operations.
+- android: merge android12-5.10-lts filesystem updates.
+- drivers: merge SM8450 platform module updates.
+- enable SCHED_DEBUG for Kernel Scheduler Tuning (to allow AxionOS to tune scheduler behavior).
+and more ..................................................
 
           21/07/2025
 ==============================
