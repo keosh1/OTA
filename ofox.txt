@@ -1,5 +1,12 @@
 - Credits to ymdzq, sekaiacg, Nebrassy, Egor Pilipenko
 
+== 25/8/2025 ==
+- Fix encryption issue on a16.
+- Update pre built magisk alpha.
+- Match the latest orange fox source changes.
+- Startup freeze screen issue has been fixed and revert reset settings after each zip update not needed now.
+- and alot more ................
+
 == 31/5/2025 ==
 - Backup_Display_Name increase to 5 items
 - Daylight savings time (DST) is not used by default
@@ -7,7 +14,7 @@
 - twrp-functions: Add File_Exists function
 - Set_FBE_Status: Add conditions to optimize judgment
 - Add TW_XIAOMI_TOUCH_PERMISSION_FIX
-- Add TW_XIAOMI_TOUCH_RMMOD_GOODIX_CORE
+- Add TW_XIAOMI_TOU== 31/5/2025 ==CH_RMMOD_GOODIX_CORE
 - Enable SPR block in recovery and power off UI
 - Fixed a problem where text was not translated
 - Updated Simplified Chinese translation text
