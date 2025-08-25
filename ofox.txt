@@ -3,8 +3,22 @@
 == 25/8/2025 ==
 - Fix encryption issue on a16.
 - Update pre built magisk alpha.
-- Match the latest orange fox source changes.
 - Startup freeze screen issue has been fixed and revert reset settings after each zip update not needed now.
+- Update Traditional Chinese translation text
+- Updated Simplified Chinese translation text
+- Add a button to disable avb2.0 on the menu page
+- Fixed an issue where text was not translated
+- minuitwrp: remove adf leftovers
+- minuitwrp: Select display mode based on TW_FRAMERATE
+- minuitwrp: Add SPR support for drm
+- kernel_module_loader: Add TW_XIAOMI_TOUCH_RMMOD_GOODIX_CORE
+- kernel_module_loader: Add TW_XIAOMI_TOUCH_PERMISSION_FIX
+- Set_FBE_Status: Add conditions to optimize judgment
+- twrp-functions: Add File_Exists function
+- exfat: Update exfat to 1.3.0
+- Super partition: Backup_Display_Name increase to 5 items
+- custom: Daylight savings time (DST) is not used by default
+- Match the latest orange fox source changes.
 - and alot more ................
 
 == 31/5/2025 ==
