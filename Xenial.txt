@@ -2,6 +2,31 @@
 - This Kernel only can be run on LineageOS DT rom based
 - Take backup from your boot.img before flash
 
+          04/09/2025
+==============================
+- Merge KERNEL.PLATFORM.1.0.r3-06600: update Adreno GMU/HFI, CVP, Venus, WALT.
+- Merge android12-5.10-lts: F2FS fixes, Coresight, Type‑C, xHCI, scheduler tweaks.
+- block: introduce SSG I/O scheduler with cgroup support and defconfig hook.
+- block: drop legacy SSG scheduler artifacts from elevator and config.
+- treewide: fix Clang 21 warnings in haptics, Wi‑Fi, and SDE display.
+- crypto: qcedev: demote verbose logs to reduce kernel log noise.
+- scsi: add suspend‑silence flag to suppress PM logs during suspend.
+- ashmem: refactor for readability and performance; align mm/shmem integration.
+- arm64/uapi: add 32‑bit sigcontext definition.
+- arm64/cache: set cache byte size for DMA minimum alignment.
+- arm64: traps/entry/cpufeature: cleanups and Spectre handling adjustments.
+- lib/xor, crc32: optimize instruction paths across multiple arches; enable in arm64.
+- arm64/lib: optimize memcpy/memmove via copy templates.
+- arm64/string: import optimized Cortex string/mem routines.
+- media: videobuf2: Perform a synchronized wake for waiting processes.
+- msm: kgsl: Force GPU idle timeout to 58 ms.
+- msm: kgsl: Don't try to wait for fences that have been signaled.
+- msm: kgsl: use kmem_cache pool for draw objects.
+- mbcache: Speed up cache entry creation.
+- locking: Remove rcu_read_{,un}lock() for preempt_{dis,en}able().
+- include: dcache: Bump max inline dirent name size.
+- mm: Increase vmstat interval to 10 seconds.
+
           24/08/2025
 ==============================
 - update susfs4ksu and KsuN to the latest version to match all KsuN and susfs4ksu fixes.
