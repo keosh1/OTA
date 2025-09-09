@@ -4,6 +4,11 @@
 
           04/09/2025
 ==============================
+- Add Wild Manager support.
+- Enable zRAM.
+
+          04/09/2025
+==============================
 - Merge KERNEL.PLATFORM.1.0.r3-06600: update Adreno GMU/HFI, CVP, Venus, WALT.
 - Merge android12-5.10-lts: F2FS fixes, Coresight, Type‑C, xHCI, scheduler tweaks.
 - block: introduce SSG I/O scheduler with cgroup support and defconfig hook.
