@@ -2,6 +2,13 @@
 - This Kernel only can be run on LineageOS DT rom based
 - Take backup from your boot.img before flash
 
+          12/09/2025
+==============================
+- revert: mdl loader initialization that caused boot failure
+- kernel: update to linux 5.10.244
+- boot: add synchronization barriers between init levels
+- gpu: move kgsl driver to asynchronous probe
+
           09/09/2025
 ==============================
 - Add Wild Manager support.
