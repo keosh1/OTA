@@ -2,6 +2,61 @@
 - This Kernel only can be run on LineageOS DT rom based
 - Take backup from your boot.img before flash
 
+          08/11/2025
+==============================
+- arm64/configs: custom: Enable power efficient workqueues.
+- rcu: Make the grace period workers unbound again.
+- touch: goodix: Make sure IRQ wake is disabled at probe.
+- touch: goodix: Do not disable IRQ twice.
+- touch: goodix: Fix free input device twice.
+- touch: goodix: fix deadlock in edge cases.
+- touch: goodix: Fix data racing.
+- touch: goodix: Avoid allocating memory frequently.
+- touch: goodix: Fix memory leak.
+- touch: goodix: Handle properly IRQ wake.
+- include: dcache: Bump max inline dirent name size.
+- locking: Remove rcu_read_{,un}lock() for preempt_{dis,en}able().
+- msm: kgsl: use kmem_cache pool for draw objects.
+- msm: kgsl: Don't try to wait for fences that have been signaled.
+- media: videobuf2: Perform a synchronized wake for waiting processes.
+- net: wireless: cnss2: Implement sysfs show for recovery.
+- mm/swap: make NODE_DATA an inline function on CONFIG_FLATMEM.
+- security: Add KernelSU v1.5 manual hooks and installation script.
+- fs: Update SUSFS to match the latest changes.
+- drm/msm/sde: Remove unnecessary offset string parameter.
+- mm: page_alloc: Add cond_resched() to rmqueue_bulk() loop.
+- lib: string: Optimize strlen(), strcmp() and strncmp() implementations.
+- mm: vmstat: Increase stat_interval from 1 to 10 seconds.
+- power: Reduce userspace freeze timeout for faster suspend.
+- gpu: msm: Disable CONFIG_QCOM_KGSL_PROCESS_RECLAIM.
+- binder: Replace kzalloc with kmalloc for non-zero-init allocations.
+- clk: Replace global clk list with hashtable for faster lookups.
+- clk: Reorganize header includes alphabetically.
+- Linux 5.10.245 stable merge.
+- cpuidle: Optimize CPU_PM_CPU_IDLE_ENTER() macro implementation.
+- fs: namespace: Set MS_NOATIME by default on all mounts.
+- scripts: mksysmap: Filter out weak symbols from System.map.
+- arm64: defconfig: Enable inline spinlock functions for performance.
+- arm64: Disable pointer authentication (PAC) support.
+- arm64: defconfig: Set NR_CPUS to 8 for mondrian.
+- net: defconfig: Enable FQ_CODEL queue discipline.
+- arm64: defconfig: Enable GENERIC_FIND_FIRST_BIT optimization.
+- Merge tag 'ASB-2025-10-05_5.10-stable' into android12-5.10-lts.
+- mm: kmemleak: Handle allocation failures gracefully instead of panicking.
+- mm: kmemleak: Make compilation independent of DEBUG_FS and DEBUG_KERNEL.
+- fs: mbcache: Optimize cache entry allocation and insertion.
+- mm: compaction: Set proactive_defer to 1 by default.
+- power: wakeup: Limit wakeup event processing to reduce overhead.
+- cpuidle: qcom-lpm: Handle negative sleep durations as infinite.
+- arm64: Disable CONFIG_HAVE_HW_BREAKPOINT to reduce scheduling overhead.
+- irq: Disable CONFIG_GENERIC_IRQ_EFFECTIVE_AFF_MASK.
+- sched/fair: Change load scaling from logarithmic to linear.
+- sched: Increase SCHED_RR timeslice from 100ms to 1000ms.
+- sched/core: Set default scheduling policy to SCHED_RR.
+- sched/fair: Reduce scheduler latency and min granularity values.
+- block: Disable I/O statistics collection by default.
+- mmc: core: Disable SPI CRC checking.
+
           23/09/2025
 ==============================
 - Fix Zram issue not read the proper file size.
