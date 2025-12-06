@@ -2,6 +2,34 @@
 - This Kernel only can be run on LineageOS DT rom based
 - Take backup from your boot.img before flash
 
+          06/12/2025
+==============================
+kernel: Implement manual hooks v1.6.
+kernelSU: Switch to Official KernelSU with multi-manager support (5ec1cff, KOWX712, Official, rsuntk).
+fs: Update SUSFS to match the latest A12-5.10 changes.
+toolchain: Update Clang compiler from version 20 to 21.
+Merge Linux 5.10.246 stable upstream + Qualcomm platform updates (r3-07000/06900).
+power: qti_battery_charger: Update Xiaomi battery charger driver with new features.
+net/wireless/cnss2: Implement sysfs show function for recovery state visibility.
+drm/msm/display: Disable Xiaomi-specific layer handling in DSI display and SDE CRTC.
+rcu: Add tracking mechanism for RCU lazy callbacks during boot and suspend cycles.
+drm/msm/sde_crtc: Optimize memory usage by using stack-allocated buffer.
+drm/msm/sde: Cache register values to optimize clock control operations.
+fs/dcache: Fix dentry lookup completion in d_lookup_done().
+bluetooth: btfm_slim: Fix SLIMbus driver initialization and Makefile configuration.
+build:
+- Enable O3 with LLVM Polly vectorization for better code generation.
+- Tune for cortex-a510 efficiency cores to reduce idle power consumption.
+- Add armv8.2-a crypto/fp16/dotprod extensions for hardware acceleration.
+- Apply LTO and section-based optimization for smaller binary size.
+- Configure ccache with compression for faster incremental builds.
+defconfig: mondrian:
+- Set PM_WAKELOCKS_LIMIT to 100 to prevent excessive wakelock usage.
+- Enable PM_WAKELOCKS_GC for automatic stale wakelock cleanup.
+- Enable WQ_POWER_EFFICIENT_DEFAULT to batch workqueue operations.
+- Enable ZRAM_WRITEBACK to write cold pages to storage.
+- Enable ZRAM_MEMORY_TRACKING for better memory usage monitoring.
+
           08/11/2025
 ==============================
 - arm64/configs: custom: Enable power efficient workqueues.
