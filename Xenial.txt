@@ -2,6 +2,13 @@
 - This Kernel only can be run on LineageOS DT rom based
 - Take backup from your boot.img before flash
 
+          08/12/2025
+==============================
+- Kernel: Fix kernel panic (shutdown && long boot).
+- KernelSU: Update drivers version 32213.
+- manager: Remove support for other managers only Official one.
+- SUSFS: Update SUSFS to match the latest changes for A12-5.10.
+
           06/12/2025
 ==============================
 kernel: Implement manual hooks v1.6.
