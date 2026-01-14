@@ -2,6 +2,24 @@
 - This Kernel only can be run on LineageOS DT rom based
 - Take backup from your boot.img before flash
 
+          13/01/2026
+==============================
+- KernelSU: update KernelSU-Next drivers to match the latest (dev) changes.
+- sched/fair: Base asym CPU priority on capacity instead of CPU number.
+- sched/fair: Prevent double balance interval on misfit migration.
+- sched/fair: Fix initial utilization average calculation.
+- arm64: Align clear_page function to 16-byte boundary for performance.
+- soc: qcom: sync_fence: Create dummy speculative fence for fence array initialization.
+- Merge Linux 5.10.247 stable release.
+- drm/msm: Remove hardware scheduler GMU tracepoints to reduce overhead.
+- netfilter: xt_IDLETIMER: Remove unnecessary kobject uevent notification.
+- mm: Optimize page migration heuristic for better compaction.
+- build: Force kernel build variant to user mode.
+- mm/vmscan: Skip reclaim throttling for critical user processes.
+- binder: Add NULL pointer checks in binder_alloc_do_buffer_copy().
+- Merge SM8450 module updates for WiFi, camera, and audio drivers.
+- treewide: Add header guards for MIN/MAX macro redefinitions.
+
           08/12/2025
 ==============================
 - Kernel: Fix kernel panic (shutdown && long boot).
