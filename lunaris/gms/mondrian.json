@@ -1,8 +1,8 @@
 {
   "response": [
     {
-      "maintainer": "",
-      "oem": "",
+      "maintainer": "Keosh",
+      "oem": "Xiaomi",
       "device": "mondrian",
       "filename": "Lunaris-AOSP-mondrian-OFFICIAL-3.12-GMS-2026080422.zip",
       "download": "https://mondrian-builds.keosh.workers.dev/luna/gms/Lunaris-AOSP-mondrian-OFFICIAL-3.12-GMS-2026080422.zip",
