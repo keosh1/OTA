@@ -1,28 +1,14 @@
 {
   "response": [
     {
-      "maintainer": "Keosh",
-      "oem": "Xiaomi",
-      "device": "mondrian",
-      "filename": "Lunaris-AOSP-mondrian-OFFICIAL-3.12-GMS-2026080321.zip",
-      "download": "https://mondrian-builds.keosh.workers.dev/luna/gms/Lunaris-AOSP-mondrian-OFFICIAL-3.12-GMS-2026080321.zip",
-      "timestamp": 1785793387,
-      "md5": "5a778a57e250649834731a47ba7d5bd9",
-      "sha256": "0ff1ffa5d54cc345ebf8651de175416751f3e6b48b3509a510f4138e0de34052",
-      "size": 3406352095,
-      "version": "3.12",
-      "buildtype": "Stable",
-      "forum": "",
-      "gapps": "",
-      "firmware": "",
-      "modem": "",
-      "bootloader": "",
-      "recovery": "",
-      "paypal": "",
-      "telegram": "",
-      "dt": "",
-      "common-dt": "",
-      "kernel": ""
+      "datetime": "1786849042",
+      "filename": "lineage-23.2-20260816-UNOFFICIAL-mondrian.zip",
+      "id": "15736bd82ccc0ce4ef6ff49ec51532da1b48687e1aacdb54ca8e89411dd09ac7",
+      "os_sdk_level": 36,
+      "romtype": "UNOFFICIAL",
+      "size": 2066334461,
+      "url": "https://mondrian-builds.keosh.workers.dev/lineage/vanilla/lineage-23.2-20260816-UNOFFICIAL-mondrian.zip",
+      "version": "23.2"
     }
   ]
 }
