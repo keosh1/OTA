@@ -1,1 +1,30 @@
-{"response":[]}
+{
+    "response": [
+        {
+            "maintainer": "Keosh",
+            "oem": "Poco",
+            "device": "Poco F5 Pro / K60",
+            "filename": "crDroidAndroid-16.0-20260816-mondrian-v12.11.zip",
+            "download": "https://mondrian-builds.keosh.workers.dev/crDroid/vanilla/crDroidAndroid-16.0-20260816-mondrian-v12.11.zip",
+            "timestamp": 1786844501,
+            "md5": "0113fc407844bee509e2a36c81aefecc",
+            "sha256": "4e680888f382bbe0329d0736ef17deadd63071a7cbf680096b3a27eae9d8fbd0",
+            "size": 2428532666,
+            "version": "12.11",
+            "os_patch_level": "2026-08-01",
+            "os_sdk_level": 36,
+            "buildtype": "userdebug",
+            "forum": "",
+            "gapps": "https://nikgapps.com/crdroid-official",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://orangefox.download/device/6574e52f7f9618c5be6930ab",
+            "paypal": "https://buymeacoffee.com/keosh",
+            "telegram": "https://t.me/keoshlapgroup",
+            "dt": "",
+            "common-dt": "",
+            "kernel": ""
+        }
+    ]
+}
