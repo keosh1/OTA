@@ -1,1 +1,12 @@
-{"response":[]}
+{
+	"response": [
+		{
+			"filename": "Project_Infinity-X-3.12-mondrian-16.08.2026-GAPPS-UNOFFICIAL.zip",
+			"download": "https://mondrian-builds.keosh.workers.dev/inf-x/gms-extra/Project_Infinity-X-3.12-mondrian-16.08.2026-GAPPS-UNOFFICIAL.zip",
+			"timestamp": 1786842841,
+			"md5": "790158380dfb92204e0976e77ee6b61e",
+			"size": 2866869550,
+			"version": "3.12"
+		}
+	]
+}
