@@ -1,11 +1,11 @@
 {
 	"response": [
 		{
-			"filename": "Project_Infinity-X-3.12-mondrian-16.08.2026-GAPPS-UNOFFICIAL.zip",
-			"download": "https://mondrian-builds.keosh.workers.dev/inf-x/gms-extra/Project_Infinity-X-3.12-mondrian-16.08.2026-GAPPS-UNOFFICIAL.zip",
-			"timestamp": 1786842841,
-			"md5": "790158380dfb92204e0976e77ee6b61e",
-			"size": 2866869550,
+			"filename": "Project_Infinity-X-3.12-mondrian-29.09.2026-GAPPS-UNOFFICIAL.zip",
+			"download": "https://builds.keosh1.uk/inf-x/gms-extra/Project_Infinity-X-3.12-mondrian-29.09.2026-GAPPS-UNOFFICIAL.zip",
+			"timestamp": 1790669535,
+			"md5": "552b382d22b6660db395ae6eec4c18a0",
+			"size": 2867137508,
 			"version": "3.12"
 		}
 	]
