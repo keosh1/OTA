@@ -1,11 +1,11 @@
 {
 	"response": [
 		{
-			"filename": "Project_Infinity-X-3.12-mondrian-16.08.2026-VANILLA-UNOFFICIAL.zip",
-			"download": "https://mondrian-builds.keosh.workers.dev/inf-x/vanilla/Project_Infinity-X-3.12-mondrian-16.08.2026-VANILLA-UNOFFICIAL.zip",
-			"timestamp": 1786838425,
-			"md5": "92e4f4b1213ddeb3386c8e11d896966c",
-			"size": 2514226352,
+			"filename": "Project_Infinity-X-3.12-mondrian-29.09.2026-VANILLA-UNOFFICIAL.zip",
+			"download": "https://builds.keosh1.uk/inf-x/vanilla/Project_Infinity-X-3.12-mondrian-29.09.2026-VANILLA-UNOFFICIAL.zip",
+			"timestamp": 1790670522,
+			"md5": "c47b136cf9dfdc64ec02618833f18fa2",
+			"size": 2526952975,
 			"version": "3.12"
 		}
 	]
